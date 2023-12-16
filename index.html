@@ -1,0 +1,53 @@
+<meta charset="UTF-8">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8"/>
+</head>
+<body>
+<h1>Registro de clientes</h1>
+<h2>Agregar nuevo Cliente</h2>
+
+<div id="form-box">
+<form>
+    <div id="contenedor">
+    <div>
+        <span>Nombre:</span> <input type="text" id="Nombre" class="input" placeholder="¿Cual es tu nombre?">
+    </div>
+
+    <div>
+        <span>Sexo:</span> 
+        <select id="Sexo">
+          <option value="Hombre">Hombre</option>
+          <option value="Mujer">Mujer</option>
+          <option value="Otro">Otro</option>
+      </select>
+    </div>
+
+    <div>
+        <span>Edad:</span> <input type="number" id="Edad" class="input" placeholder="¿Cuantos años tienes?">
+    </div>
+    
+    <div>
+        <span>Domicilio:</span> <input type="text" class="input" id="domicilio" placeholder="¿Donde vives?">
+    </div>
+
+    <div>
+        <span>Fecha de Registro:</span> <input type="date" class="input" id="fechaRegistro">
+    </div>
+
+    <div>
+        <span>Pago de cuota:</span> <input type="date" class="input" id="PagoCuota">
+    </div>
+  
+</form>
+</div>
+</div>
+
+<div id="button" class="button" onclick="onRegistrarCliente()">Registrar cliente</div>
+
+
+<h2>Clientes Registrados</h2>
+<div id = lista-clientes></div>
+
+<script src="scripts.js"></script>
+</body>

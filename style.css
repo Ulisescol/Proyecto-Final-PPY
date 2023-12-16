@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+body{
+background: #f6f5f7; 
+font-family: 'Montserrat', sans-serif;
+color: #3E363F;
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 50px;
+}
+
+select, input {
+  margin-bottom: 25px;
+  padding: 10px;
+  width: 200px;
+  border-radius: 3px;
+  border: 0;
+}
+
+span {
+  display: inline-block;
+  width: 150px;
+}
+
+#form-box {
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+  font-family: 'Montserrat', sans-serif, ;
+  background-color: #ABABF0;
+  position: relative;
+  top: 0;
+  padding: 20px;
+  text-align: center;
+  line-height: 24px;
+  width: 200px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: auto;
+  font-weight: bold;
+}
+.button:active {
+  transform: scale(0.95);
+}
+
+#contenedor{
+  max-width: 400px;
+  margin: 20px auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 50px;
+  background-color:#A7CECB;
+}
+
+#lista-clientes{
+  text-align: center;
+  max-width: 400px;
+  margin: 20px auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 50px;
+  background-color: rgb(161, 238, 212);
+}
